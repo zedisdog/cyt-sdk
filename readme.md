@@ -1,5 +1,7 @@
 # 畅游通SDK
 
+[![License](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)](LICENSE)
+
 ## 安装
 ```bash
 composer require dezsidog/cyt-sdk
