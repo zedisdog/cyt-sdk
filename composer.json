@@ -1,0 +1,27 @@
+{
+    "name": "dezsidog/cyt-sdk",
+    "description": "",
+    "type": "library",
+    "authors": [
+        {
+            "name": "zed",
+            "email": "zedsmail@163.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "ext-curl": "*",
+        "nesbot/carbon": "^2.19",
+        "illuminate/support": "^5.8",
+        "monolog/monolog": "^1.24"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dezsidog\\CytSdk\\": "src"
+        }
+    }
+}
