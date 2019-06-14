@@ -9,7 +9,7 @@
 namespace Dezsidog\CytSdk\Notifies;
 
 
-use Dezsidog\CytSdk\Response\Filter;
+use Dezsidog\CytSdk\Traits\Filter;
 use Dezsidog\CytSdk\Responses\BaseIn;
 use Dezsidog\CytSdk\Traits\HasLogger;
 use Psr\Log\LoggerInterface;
