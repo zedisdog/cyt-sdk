@@ -17,7 +17,7 @@ use Dezsidog\CytSdk\Requests\OrderCreateRequest;
 use Dezsidog\CytSdk\Requests\OrderDetailRequest;
 use Dezsidog\CytSdk\Requests\ProductRequest;
 use Dezsidog\CytSdk\Requests\SendOrderEticketRequest;
-use Dezsidog\CytSdk\Response\Items\Product;
+use Dezsidog\CytSdk\Responses\Items\Product;
 use Dezsidog\CytSdk\Responses\ApplyOrderRefundByUserResponse;
 use Dezsidog\CytSdk\Responses\OrderCreateResponse;
 use Dezsidog\CytSdk\Responses\OrderDetailResponse;

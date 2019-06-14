@@ -10,7 +10,7 @@ namespace Dezsidog\CytSdk\Notifies;
 
 
 use Carbon\Carbon;
-use Dezsidog\CytSdk\Requests\OutContract;
+use Dezsidog\CytSdk\Contracts\OutContract;
 
 /**
  * 通知的响应
