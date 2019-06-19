@@ -171,7 +171,7 @@ class Sdk
      * @return ErrorResponse|array|Product|ProductResponse|\Illuminate\Support\Collection|null
      * @throws \Exception
      */
-    public function getProduct(?int $resourceId = null)
+    public function getProduct($resourceId = null)
     {
         /**
          * @var ProductResponse|ErrorResponse $response
