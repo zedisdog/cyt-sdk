@@ -6,10 +6,7 @@
  * Time: 上午10:12
  */
 
-namespace App\Lib\CytSdk\src\Responses;
-
-
-use Dezsidog\CytSdk\Responses\BaseIn;
+namespace Dezsidog\CytSdk\Responses;
 
 /**
  * Class ErrorResponse
