@@ -6,7 +6,7 @@ declare(strict_types=1);
 namespace Dezsidog\CytSdk;
 
 
-use App\Lib\CytSdk\src\Responses\ErrorResponse;
+
 use Carbon\Carbon;
 use Dezsidog\CytSdk\Contracts\InContract;
 use Dezsidog\CytSdk\Contracts\OutContract;
@@ -17,6 +17,7 @@ use Dezsidog\CytSdk\Requests\OrderCreateRequest;
 use Dezsidog\CytSdk\Requests\OrderDetailRequest;
 use Dezsidog\CytSdk\Requests\ProductRequest;
 use Dezsidog\CytSdk\Requests\SendOrderEticketRequest;
+use Dezsidog\CytSdk\Responses\ErrorResponse;
 use Dezsidog\CytSdk\Responses\Items\Product;
 use Dezsidog\CytSdk\Responses\ApplyOrderRefundByUserResponse;
 use Dezsidog\CytSdk\Responses\OrderCreateResponse;
