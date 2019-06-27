@@ -129,11 +129,14 @@ class Sdk
         if (!$response) {
             throw new \Exception('response is null');
         }
+
+        $this->logger->debug('cytRequest', ["url" => $this->url, "request" => $xml, "response" => $response]);
+
         // 解析
         $response = json_decode($response);
         $response = base64_decode($response->data);
 
-        $this->logger->debug('cytRequest', ["url" => $this->url, "request" => $xml, "response" => $response]);
+        $this->logger->debug('cytResponseDecode', ["response" => $response]);
 
         $response = str_replace("qm:","",$response);
 
