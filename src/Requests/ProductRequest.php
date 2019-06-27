@@ -32,9 +32,9 @@ class ProductRequest implements OutContract
     /**
      * @var int 产品id
      */
-    public $resourceId = 0;
+    public $resourceId = '0';
 
-    public function __construct(?int $resourceId = null)
+    public function __construct($resourceId = null)
     {
         if ($resourceId) {
             $this->resourceId = $resourceId;
@@ -71,7 +71,7 @@ class ProductRequest implements OutContract
     <qm:method>%s</qm:method>
     <qm:currentPage>%d</qm:currentPage>
     <qm:pageSize>%d</qm:pageSize>
-    <qm:resourceId>%d</qm:resourceId>
+    <qm:resourceId>%s</qm:resourceId>
 </qm:body>
 DOC;
 
@@ -81,7 +81,7 @@ DOC;
             $this->method,
             $this->currentPage,
             $this->pageSize,
-            $this->resourceId
+            strval($this->resourceId)
         );
     }
 }
