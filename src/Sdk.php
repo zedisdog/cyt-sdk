@@ -34,7 +34,7 @@ class Sdk
     /** @var string 签名类型 */
     protected $securityType = 'MD5';
     /** @var string|null api网关地址 默认是测试地址 */
-    protected $url = 'http://dy.jingqu.cn/service/distributor.do';
+    protected $url = 'http://dy.jingqu.cn:9967/service/distributor.do';
 
     protected $supplierIdentity;
     protected $key;
