@@ -126,11 +126,11 @@ class Sdk
 
         $response = $this->post($this->url, $requestString);
 
+        $this->logger->debug('cytRequest', ["url" => $this->url, "request" => $xml, "response" => $response]);
+
         if (!$response) {
             throw new \Exception('response is null');
         }
-
-        $this->logger->debug('cytRequest', ["url" => $this->url, "request" => $xml, "response" => $response]);
 
         // 解析
         $response = json_decode($response);
